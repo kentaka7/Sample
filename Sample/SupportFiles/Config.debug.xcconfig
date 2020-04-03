@@ -1,0 +1,18 @@
+//
+//  Config.debug.xcconfig
+//  Sample
+//
+//  Created by Naohiro Takakura on 2020/04/03.
+//  Copyright © 2020 Naohiro Takakura. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"
+
+PRODUCT_NAME=FeedApp-Dev
+DISPLAY_NAME=FeedApp-Dev
+PRODUCT_BUNDLE_IDENTIFIER=com.sample.feed-dev
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "DEBUG"
+INFOPLIST_FILE=Sample/Info.plist
